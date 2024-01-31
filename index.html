@@ -1,0 +1,85 @@
+<html>
+<head>
+  <style>
+    /* CSS code for the style and animation of the elements */
+    body {
+      background-color: black;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 5em;
+      margin-top: 100px;
+    }
+
+    figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    div {
+        background-image: url(images/layer-cake.png);
+        background-position: center;
+        background-size: cover;
+        background-position:inherit;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px white;
+      transition: 2s;
+    }
+
+    div:hover{
+        background-image: url(images/WhatsApp\ Image\ 2024-01-27\ at\ 15.12.20_380a1090.jpg);
+        transition: 2s;
+    }
+
+    figcaption {
+      font-size: 2em;
+      margin-top: 20px;
+    }
+
+    marquee {
+      font-size: 3em;
+      color: yellow;
+      animation: rainbow 5s infinite;
+    }
+
+    @keyframes rainbow {
+      0% {
+        color: red;
+      }
+      20% {
+        color: orange;
+      }
+      40% {
+        color: green;
+      }
+      60% {
+        color: blue;
+      }
+      80% {
+        color: indigo;
+      }
+      100% {
+        color: violet;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy Birthday!</h1>
+  <figure>
+    <div>
+
+    </div>
+    <!-- <img src="images/WhatsApp Image 2024-01-27 at 15.12.20_380a1090.jpg" alt=""> -->
+    <figcaption></figcaption>
+  </figure>
+  <marquee>Happy Birthday To My Youngest Sister</marquee>
+</body>
+</html>
